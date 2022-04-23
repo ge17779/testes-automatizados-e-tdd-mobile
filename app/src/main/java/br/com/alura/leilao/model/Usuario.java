@@ -10,4 +10,7 @@ public class Usuario implements Serializable {
         this.nome = nome;
     }
 
+    public String getNome() {
+        return nome;
+    }
 }

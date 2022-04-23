@@ -25,4 +25,8 @@ public class Lance implements Serializable, Comparable {
         if (valor < lance.getValor()) return 1;
         return 0;
     }
+
+    public Usuario getUsuario() {
+        return usuario;
+    }
 }
